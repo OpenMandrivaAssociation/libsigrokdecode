@@ -28,7 +28,7 @@ Source0:	%{name}-%{sourcedate}-%{gitcommit}.tar.zst
 Patch0:		libsigrokdecode-versioned-decoders.patch
 
 
-BuildRequires:	autoconf automake libtool-base
+BuildRequires:	autoconf automake slibtool libtool-base
 BuildRequires:	doxygen
 BuildRequires:	fdupes
 BuildRequires:	graphviz
