@@ -16,7 +16,7 @@
 Name:		libsigrokdecode
 %define baseversion 0.6.0
 Version:	0.6.0+git%{sourcedate}.%{gitcommit}
-Release:	1
+Release:	2
 Summary:	libsigrokdecode is a shared library written in C which provides the basic API for running sigrok protocol decoders.
 URL:		http://www.sigrok.org
 License:	GPL-3.0-or-later
