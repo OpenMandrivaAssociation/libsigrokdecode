@@ -36,7 +36,7 @@ BuildRequires:	make
 BuildRequires:	pkgconfig
 BuildRequires:	pkgconfig(check)
 BuildRequires:	pkgconfig(glib-2.0)		>= 2.24.0
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	pkgconfig(libsigrok)	>= 0.5.0
 
 %description
@@ -77,7 +77,7 @@ logic analyzer hardware products.
 Summary:	Development files for %{name}
 Group:		Development/C
 Requires:	%{libname} = %{version}-%{release}
-Requires:	python-devel >= 3.11
+Requires:	pkgconfig(python3) >= 3.11
 
 %description -n %{devname}
 Development files (Headers etc.) for %{name}.
